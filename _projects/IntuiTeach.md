@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: IntuiTeach
 gh-repo: z4kids/IntuiTeach
 gh-badge: [star, fork, follow]

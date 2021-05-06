@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Pacman
 gh-repo: JerrickLiu/Pacman
 gh-badge: [star, fork, follow]

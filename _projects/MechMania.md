@@ -1,6 +1,6 @@
 ---
-layout: post
-title: MechMani bot
+layout: project
+title: MechMania bot
 gh-repo: ryantwolf/mm26-python
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/reflections.png

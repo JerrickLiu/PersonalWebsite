@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Mask generator
 gh-repo: JerrickLiu/Mask-generator
 gh-badge: [star, fork, follow]

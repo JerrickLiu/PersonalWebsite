@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Military vehicle classification and GradCAM
 subtitle: Explainable A.I.
 gh-repo: JerrickLiu/PyTorch-GradCam
