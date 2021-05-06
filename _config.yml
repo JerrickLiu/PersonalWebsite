@@ -18,7 +18,7 @@ navbar-links:
   Blog: "blog/index"
   Projects: "projects/projects"
   Work Experience: "work"
-  Resume: "assets/resume/JerrickLiuResume.pdf"
+  Resume: "/assets/resume/JerrickLiuResume.pdf"
 
 collections:
   projects:
