@@ -20,14 +20,10 @@ I'm also working on another research project centered around natural language pr
 
 ## Summer of 2020
 
-In the summer of 2020, I explored hierarchical reinforcement learning where I was researching whether agents can make long term decisions in the world of Minecraft. Minecraft may not be a hard game to us humans but to machine learning models there is a lot of planning to be done. Our end goal was to obtain a diamond, something not as trivial as it seems. 
-
-I originally just used PPO (proximal policy optimization), a state-of-the art RL algoithm, but found that the agent wasn’t learning much. The rewards were very sparse since you only got rewards from mining or crafting (which takes sequential hitting actions). What we found was that MineRL environment also contains 60 million frames of human gameplay. Screaming imitation learning.
-Used simple behavior cloning to train our agent: your actions should follow what these humans are doing. Penalized for not taking the “expert” action. Supervised. Then continued training with PPO
-Found that agents learned much quickly. Able to chop trees and obtain wood. 
-Sadly we ran out of time in the internship because COVID cut the research to only 6 weeks. Couldn’t train more and do more rollouts. 
-Interesting parallels: MineRL could maybe support multi agent environments and I connected it to your paper on multi-agent tasks. Although not necessarily each task needs the other agent, coordination could definitely help to “solve” the environment (obtaining a diamond). Agents using your TBONE network, your 
+See [this post where I talk about my RL minecraft project](_posts/2020-08-05-MineRL.md)
 
 ## Summer of 2019
+
+See [this post where I talk about my explainable A.I. project](_posts/2019-08-05-Military-vehicle-classification-and-GradCAM.md)
 
 
