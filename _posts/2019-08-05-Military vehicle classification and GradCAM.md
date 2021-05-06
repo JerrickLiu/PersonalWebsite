@@ -3,17 +3,18 @@ layout: post
 title: Military vehicle classification and GradCAM
 subtitle: Explainable A.I.
 gh-repo: JerrickLiu/PyTorch-GradCam
+gh-badge: [star, fork, follow]
 cover-img: /assets/img/gradcam.jpg
 thumbnail-img: /assets/img/cam.jpg
 ---
 
 Through using supervised learning, I was able to train CNNs to classify 18
-                                        different classes of military vehicles.
-                                        I also used GradCAM, an explainable AI
-                                        technique used to visualize where the
-                                        CNN is looking at in an image. To the
-                                        left, I ran the GradCAM code on an image
-                                        of myself! Pretty cool!
+different classes of military vehicles.
+I also used GradCAM, an explainable AI
+technique used to visualize where the
+CNN is looking at in an image. To the
+left, I ran the GradCAM code on an image
+of myself! Pretty cool!
 
 In the summer of 2019, I undertook a supervised learning research project for the 
 Air Force to improve image classification of military vehicles in drones using t
