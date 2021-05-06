@@ -14,7 +14,7 @@ author: Jerrick Liu
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Home: "index", "aboutme"
+  Home: "index"
   Projects: "projects/index"
   Work Experience: "work"
 
