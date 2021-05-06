@@ -13,6 +13,10 @@ Below is what a mask looks like when applied to a picture of a horse.
 
 Before:
 
+![](/assets/img/horse_before.jpeg)
+
 After:
 
 ![](/assets/img/horse.png)
+
+As you can see, the mask works really well in segmenting the object of interest from the background. 
