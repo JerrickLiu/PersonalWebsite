@@ -1,0 +1,8 @@
+{% for project in site.other_projects %}
+  <h2>
+    <a href="{{ project.url }}">
+      {{ project.name }}
+    </a>
+  </h2>
+  <p>{{ project.content | markdownify }}</p>
+{% endfor %}
