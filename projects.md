@@ -1,4 +1,5 @@
 ---
+layout: page
 title: My work experience
 subtitle: Here's what I've done so far
 ---
