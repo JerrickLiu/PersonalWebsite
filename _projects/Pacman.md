@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: project
 title: Pacman
-subtitle: I made Pacman from scratch using C++ and Cinder!
 gh-repo: JerrickLiu/Pacman
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/pacman.png
