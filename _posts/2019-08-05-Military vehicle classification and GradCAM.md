@@ -14,8 +14,6 @@ technique used to visualize where the
 CNN is looking at in an image. Below, I ran the GradCAM code on an image
 of myself! Pretty cool!
 
-![GradCAM](/assets/img/gas.png)
-
 In the summer of 2019, I undertook a supervised learning research project for the 
 Air Force to improve image classification of military vehicles in drones using t
 he machine learning library PyTorch. Some of the work is classified, 
