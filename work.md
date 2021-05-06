@@ -2,6 +2,7 @@
 layout: page
 title: My work experience
 subtitle: Here's what I've done so far
+show-avatar: false
 ---
 
 My name is Inigo Montoya. I have the following qualities:
