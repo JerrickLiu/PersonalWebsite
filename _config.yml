@@ -17,6 +17,7 @@ navbar-links:
   Home: "index"
   Projects: "projects/index"
   Work Experience: "work"
+  Resume: "assets/resume/JerrickLiuResume.pdf"
 
 # --- Logo --- #
 
