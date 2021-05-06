@@ -1,5 +1,4 @@
 ---
-layout: page
 title: My projects
 subtitle: Here's what I've done so far
 ---
