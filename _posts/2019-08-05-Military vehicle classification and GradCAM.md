@@ -4,7 +4,6 @@ title: Military vehicle classification and GradCAM
 subtitle: Explainable A.I.
 gh-repo: JerrickLiu/PyTorch-GradCam
 gh-badge: [star, fork, follow]
-cover-img: /assets/img/gradcam.jpg
 thumbnail-img: /assets/img/cam.jpg
 ---
 
