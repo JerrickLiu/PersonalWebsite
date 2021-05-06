@@ -16,15 +16,12 @@ author: Jerrick Liu
 navbar-links:
   Home: "home"
   Blog: "blog/index"
-  Research Projects: "projects/research_projects"
+  Projects: "projects/projects"
   Work Experience: "work"
-  Other Projects: "projects/other_projects"
   Resume: "assets/resume/JerrickLiuResume.pdf"
 
 collections:
-  research_projects:
-    output: true
-  other_projects:
+  projects:
     output: true
 
 # --- Logo --- #
