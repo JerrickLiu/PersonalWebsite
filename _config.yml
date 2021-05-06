@@ -23,6 +23,7 @@ navbar-links:
 collections:
   projects:
     output: true
+    sort_by: order
 
 # --- Logo --- #
 
