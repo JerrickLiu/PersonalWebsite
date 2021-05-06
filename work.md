@@ -5,13 +5,20 @@ subtitle: A glimpse into what I've worked on at my jobs
 show-avatar: false
 ---
 
-### What I'm working on right now
+## What I'm working on right now
+
+### Computer Vision 
 
 Right now, I'm working with a mentor of mine at the Air Force Research Laboratory conducting research in electro-optical ([EO](https://en.wikipedia.org/wiki/Electro-optical_sensor)) and synthetic-aperture radar ([SAR](https://en.wikipedia.org/wiki/Synthetic-aperture_radar)) images. Our goals right now are to perform image registration between these two domains of images. In short, we want to align these two different types of images in order to put them collectively into a nice dataset for future use through feature extraction and [homographies](https://en.wikipedia.org/wiki/Homography_(computer_vision))
 
 If you haven't seen SAR images before, they are incredibly noisy at certain resolutions and it's awfully challenging to align images when you can't even tell what the image is of. A proposed way of solving this problem is CycleGAN, which essentially allows us to convert images from one domain to another. In our caes, we want to convert SAR images to EO images, register the generated image, and then do the homography based on the feature points extracted on the generated image. It's really cool and we've made some progress!
 
-### Summer of 2020
+
+### RL / NLP
+
+I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically Bidirectional Encoder Represenations BERT) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers. 
+
+## Summer of 2020
 
 In the summer of 2020, I explored hierarchical reinforcement learning where I was researching whether agents can make long term decisions in the world of Minecraft. Minecraft may not be a hard game to us humans but to machine learning models there is a lot of planning to be done. Our end goal was to obtain a diamond, something not as trivial as it seems. 
 
@@ -21,6 +28,6 @@ Found that agents learned much quickly. Able to chop trees and obtain wood.
 Sadly we ran out of time in the internship because COVID cut the research to only 6 weeks. Couldn’t train more and do more rollouts. 
 Interesting parallels: MineRL could maybe support multi agent environments and I connected it to your paper on multi-agent tasks. Although not necessarily each task needs the other agent, coordination could definitely help to “solve” the environment (obtaining a diamond). Agents using your TBONE network, your 
 
-### Summer of 2019
+## Summer of 2019
 
 
