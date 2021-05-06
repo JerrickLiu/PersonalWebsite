@@ -16,6 +16,8 @@ of myself! Pretty cool!
 
 ![GradCAM](/PersonalWebsite/assets/img/cam.jpg){: .mx-auto.d-block :}
 
+### A bit more about this project
+
 In the summer of 2019, I undertook a supervised learning research project for the 
 Air Force to improve image classification of military vehicles in drones using t
 he machine learning library PyTorch. Some of the work is classified, 
