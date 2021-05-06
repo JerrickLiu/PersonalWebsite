@@ -2,7 +2,6 @@
 layout: page
 title: My work experience
 subtitle: A glimpse into what I've worked on at my jobs
-show-avatar: false
 ---
 
 ## What I'm working on right now
