@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Reinforcment learning in Minecraft
 subtitle: Teaching an Agent to play Minecraft!
 gh-repo: JerrickLiu/MineRL-Stable-Baselines
