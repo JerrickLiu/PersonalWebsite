@@ -19,6 +19,10 @@ navbar-links:
   Work Experience: "work"
   Resume: "assets/resume/JerrickLiuResume.pdf"
 
+collections:
+  projects:
+    output: true
+
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
