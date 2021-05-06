@@ -2,8 +2,9 @@
 layout: post
 title: Military vehicle classification and GradCAM
 subtitle: Explainable A.I.
-cover-img: /assets/img/gradcam.jpg
-thumbnail-img: /assets/img/gradcam.png
+gh-repo: https://github.com/JerrickLiu/PyTorch-GradCam
+cover-img: /assets/img/cam.jpg
+thumbnail-img: /assets/img/cam.png
 ---
 
 Through using supervised learning, I was able to train CNNs to classify 18
