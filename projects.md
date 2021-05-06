@@ -1,6 +1,6 @@
 ---
-layout: base
-title: My work experience
+layout: default
+title: Projects
 subtitle: Here's what I've done so far
 ---
 
