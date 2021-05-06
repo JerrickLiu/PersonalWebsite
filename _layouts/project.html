@@ -2,7 +2,7 @@
 layout: base
 ---
 
-{% include header.html type="project" %}
+{% include header.html type="post" %}
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
@@ -50,5 +50,20 @@ layout: base
           {% endfor %}
         </div>
       {% endif %}
+
+      <ul class="pagination blog-pager">
+        {% if page.previous.url %}
+        <li class="page-item previous">
+          <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="page-item next">
+          <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
+      {% include comments.html %}
+    </div>
   </div>
 </div>
