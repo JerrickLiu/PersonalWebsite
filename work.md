@@ -19,10 +19,10 @@ I'm also working on another research project centered around natural language pr
 
 ## Summer of 2020
 
-See [this post where I talk about my RL minecraft project](_posts/2020-08-05-MineRL.md)
+See [this post where I talk about my RL minecraft project](_projects/MineRL.md)
 
 ## Summer of 2019
 
-See [this post where I talk about my explainable A.I. project](_posts/2019-08-05-Military-vehicle-classification-and-GradCAM.md)
+See [this post where I talk about my explainable A.I. project](_projects/GradCAM.md)
 
 
