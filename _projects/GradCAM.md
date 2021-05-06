@@ -14,7 +14,7 @@ technique used to visualize where the
 CNN is looking at in an image. Below, I ran the GradCAM code on an image
 of myself! Pretty cool!
 
-![GradCAM](/PersonalWebsite/assets/img/cam.jpg){: .mx-auto.d-block :}
+![GradCAM](/assets/img/cam.jpg){: .mx-auto.d-block :}
 
 ### A bit more about this project
 

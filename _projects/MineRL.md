@@ -9,7 +9,7 @@ thumbnail-img: /assets/img/minecraft.jpg
 
 Using Tensorflow and reinforcment learning algorithms such as proximal policy optimization (PPO), I was able to train up an RL agent to chop trees in Minecraft! I was also able to interact and see my agent in action in an actual Minecraft world!
 
-![Agent](/PersonalWebsite/assets/img/minecraft.jpg){: .mx-auto.d-block :}
+![Agent](/assets/img/minecraft.jpg){: .mx-auto.d-block :}
 
 ### A bit more about this project
 
