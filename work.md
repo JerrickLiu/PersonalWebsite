@@ -15,7 +15,11 @@ If you haven't seen SAR images before, they are incredibly noisy at certain reso
 
 ### RL / NLP
 
-I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically Bidirectional Encoder Represenations BERT) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers. 
+I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically Bidirectional Encoder Represenations BERT) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers.
+
+### Code moderator for [Software Design Studio (CS 126)](https://courses.grainger.illinois.edu/CS126/sp2021/)
+
+I'm also a code moderator for one of the classes here at UIUC called Software Design Studio where we try to emphasize good coding practices, smart design choices, and proper documentation for code. As a code moderator, I'm responsible for 5 talented and driven students where I view their code and offer constructive criticism to help them write better code. It's been a rewarding experience seeing the student's code quality improve so much over the semester. 
 
 ## Summer of 2020
 

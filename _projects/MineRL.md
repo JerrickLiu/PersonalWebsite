@@ -8,7 +8,7 @@ thumbnail-img: /assets/img/minecraft.jpg
 order: 1
 ---
 
-Using Tensorflow and reinforcment learning algorithms such as proximal policy optimization (PPO), I was able to train up an RL agent to chop trees in Minecraft! I was also able to interact and see my agent in action in an actual Minecraft world!
+Using Tensorflow and reinforcment learning algorithms such as [proximal policy optimization (PPO)](2020-07-13-FourthPost.md), I was able to train up an RL agent to chop trees in Minecraft! I was also able to interact and see my agent in action in an actual Minecraft world!
 
 ![Agent](/assets/img/minecraft.jpg){: .mx-auto.d-block :}
 
@@ -17,11 +17,11 @@ Using Tensorflow and reinforcment learning algorithms such as proximal policy op
 In the summer of 2020, I undertook a new research
 project based in Minecraft. The goal was to teach an
 A.I. agent to learn how to play Minecraft through
-the custom OpenAI gym environment MineRL using
+the custom [OpenAI gym environment MineRL](https://minerl.io/competition/) using
 reinforcement and imitaiton learning. OpenAI gym
 provides environments and frameworks of environments
 for you to implement your RL algorithms in. Using
-the Stable Baselines repo of reinforcement learning
+the [Stable Baselines repo](https://github.com/hill-a/stable-baselines) of reinforcement learning
 algorithms, namely Proximal Policy Optimization
 (PPO), I trained a agent for 3 million timesteps to
 learn how to chop a tree. Learning progress was
@@ -32,7 +32,7 @@ demonstrations (MineRL provided 60 million frames of
 human gameplay), learning was expedited by a large
 factor.
 
-While training, I learned Docker, an incredibly
+While training, [I learned Docker](2020-07-16-SixthPost.md), an incredibly
 powerful tool to package software. I wrote a
 dockerfile for the code which can be found in my
 github repo. My A.I agent eventually learned to chop

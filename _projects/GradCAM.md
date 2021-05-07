@@ -8,9 +8,9 @@ thumbnail-img: /assets/img/cam.jpg
 order: 2
 ---
 
-Through using supervised learning, I was able to train CNNs to classify 18
+Through using supervised learning, I was able to train a convolutional neural network to classify 18
 different classes of military vehicles.
-I also used GradCAM, an explainable AI
+I also used [GradCAM](https://arxiv.org/abs/1610.02391), an explainable AI
 technique used to visualize where the
 CNN is looking at in an image. Below, I ran the GradCAM code on an image
 of myself! Pretty cool!
@@ -26,7 +26,7 @@ including the dataset so the Github repo does not contain the full code
 base I worked with nor the datset. However, the code for GradCAM that 
 I helped improve is all there. GradCAM is very useful explainable A.I. 
 technique used to highlight the features of a iamge a neural network 
-is looking at when performing image classification. I ran the code on a 
+is looking at when performing image classification. In short, GradCAM essentially utilizes the gradients flowing [into the last convolutional layer of a CNN](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/) for a certain class and performs a class activated mapping for that class to dispaly a "heatmap" of where the model is looking to make it's classification decision. I ran the code on a 
 picture of myself to show a little demonstration (keep in mind there hasn't 
 been any training done on classifying my face) and as you can it see it 
 seems to be looking at the edges of my collar. 
