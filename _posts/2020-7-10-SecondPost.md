@@ -50,7 +50,6 @@ Let's unpack these variables. Before PPO, there is another RL algorithm called [
 
 ![](/assets/img/trpo.png)
 
-
 A bit of a notation thing. We usually denote the policy of our agent as $\pi$. We write $\pi_{\theta}$ to denote the policy with our given parameters $\theta$. These parameters are what we update in gradient ascent and so. Then, $\pi_{\theta}(a_t | s_t)$ is the **probability** that I take a certain action at time step $t$ **given** the state at time step $t$, $s$. In short, I see some state $s$. What's the probability then I take some action $a$ after seeing this state? That's what that's basically saying.
 
 A fallback of TRPO was that it gets a bit more complicated after that. You can read more about the differences [here](https://theaisummer.com/TRPO_PPO/). PPO bsically takes the same objective from TRPO ($r_t(\theta)$), but adds a clipped version to it, saying you can only change that ratio between $(1 - \epsilon, 1 + \epsilon)$. This allows the policy to not get updated too much or too few and the authors of PPO found a value of $\epsilon = 0.2$ to be a good value. 
