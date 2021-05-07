@@ -15,7 +15,7 @@ If you haven't seen SAR images before, they are incredibly noisy at certain reso
 
 ### RL / NLP
 
-I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically Bidirectional Encoder Represenations BERT) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers.
+I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically [Bidirectional Encoder Represenations BERT](http://jalammar.github.io/illustrated-bert/)) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers.
 
 ### Code moderator for [Software Design Studio (CS 126)](https://courses.grainger.illinois.edu/CS126/sp2021/)
 
