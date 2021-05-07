@@ -11,9 +11,9 @@ Recently, my mentors and I just had a fruitful discussion on the various types o
 
 As you can see, both DQN and PPO fall under the branch of model-free, but where DQN and PPO differ is how they maximize performance. Like I said, DQN utilizes Q-learning, while PPO undergoes direct policy optimization. I already talked about PPO in a [earlier blog post]({{site.url}}/2020-7-10-SecondPost) so for this one I'll be focusing more on DQN and my experiences with it. 
 
-## Q-learning and why it didn't work for me
+## Q-learning
 
-The backbone of the DQN algorithm is Q-learning. In Q-learning, the algorithm tries to learn a **Q-function**, which takes the state and action as inputs and returns the reward. We want to find a policy that will maximize the expected rewards and future rewards at any given state and taking some action. Mathematically, we want to find the optimal Q Function, $Q^*(s,a)$, which gives the expected return if you start in state $s$, take an arbitrary action $a$, and then forever after act according to the optimal policy, $\pi$, in the environment:
+The backbone of the DQN algorithm is Q-learning. In Q-learning, the algorithm tries to learn a **Q-function**, which takes the state and action as inputs and returns the reward. We want to find a policy that will maximize the expected rewards and future rewards at any given state and taking some action. Mathematically, we want to find the optimal Q Function, $Q^*(s,a)$, which gives the expected return if you start in state $s$, take an arbitrary action $a$, and then forever after act according to the optimal policy, $\pi$, in a trajectory, $\tau$, of the environment:
 
 $$Q^*(s,a) = max_{\pi} \mathbb{E}[R(\tau) | s_0 = s, a_0 = a]$$
 

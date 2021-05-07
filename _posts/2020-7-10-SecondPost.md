@@ -13,7 +13,7 @@ This year, for example, I'm working with Minecraft agents. The agent is the A.I.
 
 Here's the general mathematical theory behind it
 
-![an image alt text](/assets/img/ppo.png)
+![](/assets/img/ppo.png)
 
 Anyone who doesn't have a decent understanding of math won't be able to understand that. And for those who want to get started in machine learning, you got to have a strong foundation in math. That was a key takeway right from the get go when I started all of this. 
 
@@ -32,7 +32,7 @@ Anyway, back to PPO. PPO utilizes policy optimization. But what is a policy? Rem
 
 Looking back at my high school self, I can understand why this was tough to understand. But now as I gained a bit more mathematically maturity and studying more of the RL theory, I've come to understand PPO much more now. What my old self said is pretty good, and I'm here writing about it a bit more. 
 
-I talked about these policy optimization types of algorithms and what I didn't explain very clearly was that in these direct policy optimization methods, the policy outputs a probability distribution of all the actions which introduces a **stochastic** factor to the agent and allows for **continuous actions**. We ideally want some sort of stochastic factor to promote exploration rather than exploitation. See this [post](https://towardsdatascience.com/intuition-exploration-vs-exploitation-c645a1d37c7a) for a better idea why. Essentially, in these types of algorithms, we train the agent to make the more favorable actions have higher probabilites of being sampled and the negative ones have lower probabilites! Makes sense.
+I talked about these policy optimization types of algorithms and what I didn't explain very clearly was that in these direct policy optimization methods, the policy outputs a probability distribution of all the actions which introduces a **stochastic** factor to the agent and allows for **continuous actions**. We ideally want some sort of stochastic factor to promote exploration rather than exploitation. See this [post](https://towardsdatascience.com/intuition-exploration-vs-exploitation-c645a1d37c7a) for a better idea why. We also may or may not want support for continuous actions becuse our environment maybe not all just be discrete actions. Think of driving a car and turning the steering wheel. The number of degrees you turn the steering wheel is continuous. Essentially, in these types of algorithms, we train the agent to make the more favorable actions have higher probabilites of being sampled and the negative ones have lower probabilites! Makes sense.
 
 In most cases, these algorithms are [policy gradient methods](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html) where we perform gradient *ascent* on our agent's parameters to maximize our rewards. Mathematically, we want to maximize the expected value of our current and future rewards in a trajectory (a full run through of our agent before reaching a terminal state. That could be the game ending, the agent dying, etc.). We denote the trajectory with $\tau$.
 
@@ -46,9 +46,12 @@ Now in proximal policy optimization, I mentioned how the idea was that we don't 
 
 But we also don't want too small of an update as our agent will take forever to learn then. PPO with a clipped objective basically limits how big of an update to our policy occurs. Notice how in the PPO objective function, we take the min of $r_t(\theta) * A_t$ and clip($r_t(\theta), 1 - \epsilon, 1 + \epsilon) * A_t$.
 
-Let's unpack these variables. Before PPO, there is another RL algorithm called [trust region policy optimization](https://arxiv.org/abs/1502.05477) and aims to do the same thing: limit how big we update our policy. Essentially, what they did was look at the ratio between the probability of a certain action being taken under the **current** policy and the same action being taken under the **previous** policy. They then muliplied that ratio by something known as the *advantage* function, $A_t$, which simply analyzes was this action taken leave me better off than before (better expected future rewards). A positive advantage means it did and a negative advantage means it made my state worse. The whole thing then get's wrapped in an expected value because we're dealing with expected rewards and probability distributions. Mathematically, it looks like this:
+Let's unpack these variables. Before PPO, there is another RL algorithm called [trust region policy optimization](https://arxiv.org/abs/1502.05477) and aims to do the same thing: limit how big we update our policy. Essentially, what they did was look at the ratio between the probability of a certain action being taken under the **current** policy and the same action being taken under the **previous** policy. They then muliplied that ratio by something known as the *advantage* function, $A_t$, which simply analyzes if an action that I took left me better off than before (better expected future rewards). A positive advantage means it did and a negative advantage means it made my state worse. The whole thing then get's wrapped in an expected value because we're dealing with expected rewards and probability distributions. Mathematically, it looks like this:
 
 ![](/assets/img/trpo.png)
+
+
+A bit of a notation thing. We usually denote the policy of our agent as $\pi$. We write $\pi_{\theta}$ to denote the policy with our given parameters $\theta$. These parameters are what we update in gradient ascent and so. Then, $\pi_{\theta}(a_t | s_t)$ is the **probability** that I take a certain action at time step $t$ **given** the state at time step $t$, $s$. In short, I see some state $s$. What's the probability then I take some action $a$ after seeing this state? That's what that's basically saying.
 
 A fallback of TRPO was that it gets a bit more complicated after that. You can read more about the differences [here](https://theaisummer.com/TRPO_PPO/). PPO bsically takes the same objective from TRPO ($r_t(\theta)$), but adds a clipped version to it, saying you can only change that ratio between $(1 - \epsilon, 1 + \epsilon)$. This allows the policy to not get updated too much or too few and the authors of PPO found a value of $\epsilon = 0.2$ to be a good value. 
 
