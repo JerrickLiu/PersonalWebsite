@@ -9,7 +9,7 @@ Recently, my mentors and I just had a fruitful discussion on the various types o
 
 ![](/assets/img/algorithms.png)
 
-As you can see, both DQN and PPO fall under the branch of model-free, but where DQN and PPO differ is how they maximize performance. Like I said, DQN utilizes Q-learning, while PPO undergoes direct policy optimization. I already talked about PPO in a [earlier blog post]({{site.url}}/2020-7-10-SecondPost.md) so for this one I'll be focusing more on DQN and my experiences with it. 
+As you can see, both DQN and PPO fall under the branch of model-free, but where DQN and PPO differ is how they maximize performance. Like I said, DQN utilizes Q-learning, while PPO undergoes direct policy optimization. I already talked about PPO in a [earlier blog post]({{site.url}}/2020-7-10-SecondPost) so for this one I'll be focusing more on DQN and my experiences with it. 
 
 ## Q-learning and why it didn't work for me
 

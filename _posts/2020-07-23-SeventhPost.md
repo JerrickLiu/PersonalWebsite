@@ -6,7 +6,7 @@ published: true
 
 ## This is the queue 
 
-So in an [earlier post]({{site.url}}/2020-07-11-ThirdPost.md), I talked about my experiences training Minecraft agents to chop trees using PPO and wrapping action and observation spaces into Box and discrete spaces so they'd be compatible with the algorithm. I left a little cliff hanger at the end where I talked about if there was only a way to speed up training and now here we are! Talking about how we sped up training! 
+So in an [earlier post]({{site.url}}/2020-07-11-ThirdPost), I talked about my experiences training Minecraft agents to chop trees using PPO and wrapping action and observation spaces into Box and discrete spaces so they'd be compatible with the algorithm. I left a little cliff hanger at the end where I talked about if there was only a way to speed up training and now here we are! Talking about how we sped up training! 
 
 ## Imitation learning/Behavior cloning
 
