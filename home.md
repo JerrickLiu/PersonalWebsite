@@ -24,6 +24,5 @@ Reach me at my email! Check out my GitHub! Connect with me on LinkedIn! Links ar
 - Piano. 
 - Ping-pong.
 - Noodles.
-- [My amazing girlfriend](/assets/img/mymosaic.png) (The link leads to a mosaic I made of a picture of us created with thounsands of other pictuers of us. My [data structures class](https://courses.engr.illinois.edu/cs225/sp2021/) allowed me to do this.)
+- [My amazing girlfriend](/assets/img/mymosaic.png) (The link leads to a mosaic I made of a picture of us created with thounsands of other pictuers of us. My [data structures class](https://courses.engr.illinois.edu/cs225/sp2021/) allowed me to do this and it's really cool. Warning though, this image is **huge** and may take a minute to load.)
 
-### Mis

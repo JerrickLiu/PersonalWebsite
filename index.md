@@ -26,4 +26,3 @@ Reach me at my email! Check out my GitHub! Connect with me on LinkedIn! Links ar
 - Noodles.
 - [My amazing girlfriend](/assets/img/mymosaic.png) (The link leads to a mosaic I made of a picture of us created with thounsands of other pictuers of us. My [data structures class](https://courses.engr.illinois.edu/cs225/sp2021/) allowed me to do this.)
 
-### Mis
