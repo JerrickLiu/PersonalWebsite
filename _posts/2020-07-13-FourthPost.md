@@ -7,13 +7,13 @@ last-updated: 2021-05-03
 
 Recently, my mentors and I just had a fruitful discussion on the various types of RL algorithms out there, namely DQN and PPO. And in this blog post, I thought I'd share what we talked about and what I've learned. So DQN, or deep-Q network, is a model-free RL algorithm that learns through Q-learning and off-policy. Two posts ago, I talked about what a policy was. If you recall, it's basically the RL agent's brain. Now, DQN and Q-learning in general are performed **off-policy**, meaning that while learning, each update in the policy can use data collected at any point in its time of training, whereas algorithms like PPO are **on-policy**, only using the data collected from the most up-to-date policy and making decisions based on that. Both algorithms are model-free, meaning that while training agents, they do not have access to the model of the environment. The model of the environment is a function which predicts state transitions and rewards. Here's a neat little image taken from OpenAI Spinning Up's course that gives a rough taxonomy of RL algorithms. 
 
-![](/assets/imgs/algorithms.svg)
+![](/assets/imgs/algorithms.png)
 
 As you can see, both DQN and PPO fall under the branch of model-free, but where DQN and PPO differ is how they maximize performance. Like I said, DQN utilizes Q-learning, while PPO undergoes direct policy optimization. I already talked about PPO in a [earlier blog post](2020-7-10-SecondPost.md) so for this one I'll be focusing more on DQN and my experiences with it. 
 
 ## Q-learning and why it didn't work for me
 
-The backbone of the DQN algorithm is Q-learning. In Q-learning, the algorithm tries to learn a **Q-function**, which takes the state and action as inputs and returns the reward. We want to find a policy that will maximize the expected rewards and future rewards at any given state and taking some action. Mathematically, we want to find the optimal Q Function, $Q^*(s,a)$, which gives the expected return if you start in state $s$, take an arbitrary action $a$, and then forever after act according to the optimal policy, $pi$, in the environment:
+The backbone of the DQN algorithm is Q-learning. In Q-learning, the algorithm tries to learn a **Q-function**, which takes the state and action as inputs and returns the reward. We want to find a policy that will maximize the expected rewards and future rewards at any given state and taking some action. Mathematically, we want to find the optimal Q Function, $Q^*(s,a)$, which gives the expected return if you start in state $s$, take an arbitrary action $a$, and then forever after act according to the optimal policy, $\pi$, in the environment:
 
 $$Q^*(s,a) = max_{\pi} \mathbb{E}[R(\tau) | s_0 = s, a_0 = a]$$
 
