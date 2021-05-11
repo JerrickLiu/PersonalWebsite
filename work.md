@@ -12,10 +12,12 @@ Right now, I'm working with a mentor of mine at the Air Force Research Laborator
 
 If you haven't seen SAR images before, they are incredibly noisy at certain resolutions and it's awfully challenging to align images when you can't even tell what the image is of. A proposed way of solving this problem is [CycleGAN](https://junyanz.github.io/CycleGAN/), which essentially allows us to convert images from one domain to another. In our caes, we want to convert SAR images to EO images, register the generated image, and then do the homography based on the feature points extracted on the generated image. It's really cool and we've made some progress!
 
+On top of that, I'm also in charge of a classification competition based on our aligned EO and SAR data. We've gotten around 300 participants from all over the world including China, Switzerland, Romania, Japan, the United States, and more to submit models to classify EO and SAR chips of vehicles. It's been incredibly fascinating see all the various methods used to this classification, including [feature fusion](https://www.sciencedirect.com/science/article/pii/S003132030500083X), [knowledge distillation](https://arxiv.org/abs/1912.13179), and [semi-supervised learning methods like Noisy Student](https://arxiv.org/abs/1911.04252). I've been writing a paper detailing the results of the competitions as well as the intricate methods used by all of these teams. 
+
 
 ### Reinforcement Learning / Natural Language Processing
 
-I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically [Bidirectional Encoder Represenations BERT](http://jalammar.github.io/illustrated-bert/)) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well to provide more satsifactory answers.
+I'm also working on another research project centered around natural language processing and reinforcement learning. I'll be getting to work with transformers (specifically [Bidirectional Encoder Represenations (BERT)](http://jalammar.github.io/illustrated-bert/)) to hopefully train up a chatbot that can provide us a lot of important information depending on what we ask it. We're hopefully going to reinforce the learning of the chatbot as well using [Ray and RLlib](https://arxiv.org/abs/1911.04252) to provide more satsifactory answers.
 
 ### Code moderator for [Software Design Studio (CS 126)](https://courses.grainger.illinois.edu/CS126/sp2021/)
 

@@ -15,9 +15,9 @@ author: Jerrick Liu
 
 navbar-links:
   Home: "home"
-  Blog: "blog/index"
   Projects: "projects/projects"
   Work Experience: "work"
+  Blog: "blog/index"
   Resume: "/assets/resume/JerrickLiuResume.pdf"
 
 collections:
