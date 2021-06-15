@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Publications
 subtitle: Here's what I've done so far
 ---
