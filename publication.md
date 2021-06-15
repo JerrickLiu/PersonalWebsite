@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Publications
 subtitle: My published work
 ---
