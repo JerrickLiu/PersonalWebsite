@@ -6,9 +6,9 @@ venue: CVPR
 city: Virtual
 state:
 teaser:
-thumbnail: "assets/paper_thumb/ntire"
+thumbnail: 'ntire.png'
 authors: "J. Liu, N. Inkawhich, O. Nina, R. Timofte"
-bibtex:
+bibtex: ntire.txt
 uri: https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Liu_NTIRE_2021_Multi-Modal_Aerial_View_Object_Classification_Challenge_CVPRW_2021_paper.pdf
 arxiv: 
 project:
