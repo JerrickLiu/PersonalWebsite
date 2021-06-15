@@ -1,9 +1,6 @@
 ---
-title:
-redirect_from:
-  - /publications/
-  - /publications.html
-author_profile: true
+title: Publications
+subtitle: My published work
 ---
 
 <table>
