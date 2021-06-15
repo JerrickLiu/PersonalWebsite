@@ -3,7 +3,7 @@
         {% if post.collection == 'publications' or post.collection == 'workshops' %}
             <td>
               {% if post.uri %}
-                <a href="{{post.uri}}"><img class="table_entry" src="{{post.thumbnail | prepend: "/files/thumbnails/" }}"></a>
+                <a href="{{post.uri | prepend: "/files/publications/" }}"><img class="table_entry" src="{{post.thumbnail | prepend: "/files/thumbnails/" }}"></a>
               {% else %}
                 <img class="table_entry" src="{{post.thumbnail | prepend: "/files/thumbnails/" }}">
             {% endif %}
@@ -21,8 +21,9 @@
                 {% if post.state %}, {{post.state}}{% endif %}
 
               </div><br>
+
               {% if post.uri %}
-                <a class="button pdf" href="{{post.uri}}">Pdf</a>
+                <a class="button pdf" href="{{post.uri | prepend: "/files/publications/" }}">Pdf</a>
               {% endif %}
 
               {% if post.arxiv %}
