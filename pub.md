@@ -1,10 +1,13 @@
 ---
-title: Publications
-subtitle: Here's what I've done so far
+title:
+redirect_from:
+  - /publications/
+  - /publications.html
+author_profile: true
 ---
 
 <table>
 {% for post in site.publications %}
-  <tr>{% include asdlfjalsjdfas.html %}</tr>
+  <tr>{% include publications.html %}</tr>
 {% endfor %}
 </table>
