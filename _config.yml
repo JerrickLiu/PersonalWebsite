@@ -16,6 +16,7 @@ author: Jerrick Liu
 navbar-links:
   Home: "home"
   Projects: "projects/projects"
+  Publications: "publications"
   Work Experience: "work"
   Blog: "blog/index"
   Resume: "/assets/resume/JerrickLiuResume.pdf"
@@ -24,6 +25,8 @@ collections:
   projects:
     output: true
     sort_by: order
+  publications:
+    output: true
 
 # --- Logo --- #
 
