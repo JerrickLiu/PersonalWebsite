@@ -8,5 +8,6 @@ author_profile: true
 
 <table>
 {% for post in site.publications %}
+  <tr>{% include head.html %}</tr>
 {% endfor %}
 </table>
