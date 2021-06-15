@@ -7,5 +7,6 @@ subtitle: My published work
 <table>
 {% for post in site.publications %}
   <tr>{% include publications.html %}</tr>rr
+  <br>
 {% endfor %}
 </table>
