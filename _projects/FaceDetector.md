@@ -4,7 +4,7 @@ title: Face Detector
 gh-repo: JerrickLiu/FaceDetector
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/jerrick.png
-order: 7
+order: 10
 ---
 
 

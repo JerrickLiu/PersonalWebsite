@@ -4,7 +4,7 @@ title: Mask generator
 gh-repo: JerrickLiu/Mask-generator
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/horse.png
-order: 3
+order: 6
 ---
 
 I utilized Python's OpenCV2's thresholding functions to generate masks for images. This script is really helpful for generating more data for supervised learning!

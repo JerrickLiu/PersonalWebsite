@@ -5,7 +5,7 @@ subtitle: Explainable A.I.
 gh-repo: JerrickLiu/PyTorch-GradCam
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/cam.jpg
-order: 2
+order: 5
 ---
 
 Through using supervised learning, I was able to train a convolutional neural network to classify 18
