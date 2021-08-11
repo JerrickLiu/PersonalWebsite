@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A RL framework for NLP tasks
+title: A reinforcement learning framework for NLP tasks
 thumbnail-img: /assets/img/chatbot.png
 order: 2
 ---
