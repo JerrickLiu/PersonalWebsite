@@ -6,7 +6,7 @@ subtitle: Computer Science Student at the University of Illinois at Urbana-Champ
 
 ## Hello! My name is Jerrick Liu
 
-I'm currently studying computer science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I'm also working with the [Air Force Research Laboratory](https://www.afrl.af.mil/) doing some cool stuff with computer vision, reinforcement learning, and natural language processing. Head over to my [projects](projects/projects.html) and my [work experience](work.md) pages to see what I've done and what I'm working on! Check out my [resume](assets/resume/JerrickLiuResume.pdf) too.
+I'm currently studying computer science at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I'll be joining [NVIDIA](https://www.nvidia.com/en-us/) as a deep learning software engineer working on [cuDNN](https://developer.nvidia.com/cudnn) under [Scott Ricketts](https://www.linkedin.com/in/scott-ricketts-b6a12346/). I most recently worked with the [Air Force Research Laboratory](https://www.afrl.af.mil/) doing some cool stuff with computer vision, reinforcement learning, and natural language processing. Head over to my [projects](projects/projects.html) and my [work experience](work.md) pages to see what I've done and what I'm working on! Check out my [resume](assets/resume/JerrickLiuResume.pdf) too.
 
 ### Research Interests
 
