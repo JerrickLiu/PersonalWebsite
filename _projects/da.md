@@ -7,7 +7,7 @@ order: 1
 
 During the summer of 2021, I worked on a project centerd around unsupervised domain adaptation (UDA). Illustrated below, domain adaptation is the simple idea of training a classifier on one domain, called the source domain, and adapting that classifier to classify the same classes in another domain, called the target domain.
 
-![ex]((/assets/img/da_ex.png)
+![ex](/assets/img/da_ex.png)
 
 In the unsupervised area, the other domain you are trying to classify images on do not have labels. Thus, it's crucial that the classifer you've trained on the source domain is general and has not overfitted on the source images.
 
