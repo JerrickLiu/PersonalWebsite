@@ -6,7 +6,7 @@ subtitle: A glimpse into what I've worked on at my jobs
 
 ## What I'm working on right now
 
-Hopefully get a research position! 
+I"m working with [Professor Liangyan Gui](https://cs.illinois.edu/about/people/all-faculty/lgui) doing research in predictive vision as well as [Professor Katherine Driggs-Campbell](https://krdc.web.illinois.edu) and her Phd student [Aamir Hasan](https://aamzhas.github.io/) on reinforcement learning in advanced driver asistance systems (ADAS)!
 
 ## Summer 2021
 
