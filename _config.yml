@@ -50,6 +50,7 @@ social-network-links:
   email: "jerrick.y.liu@gmail.com"
   linkedin: jerrickliu
   github: JerrickLiu
+  google-scholar: citations?user=trInLJcAAAAJ&hl=en&oi=sra
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -63,7 +64,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-  google-scholar: citations?user=trInLJcAAAAJ&hl=en&oi=sra
+  
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
