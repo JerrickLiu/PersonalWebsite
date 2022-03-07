@@ -8,7 +8,7 @@ thumbnail-img: /assets/img/minecraft.jpg
 order: 4
 ---
 
-Using Tensorflow and reinforcment learning algorithms such as [proximal policy optimization (PPO)]({{site.url}}/2020-07-13-FourthPost.md), I was able to train up an RL agent to chop trees in Minecraft! I was also able to interact and see my agent in action in an actual Minecraft world! Check it out below as it chops a wood block from a tree.!
+Using Tensorflow and reinforcment learning algorithms such as [proximal policy optimization (PPO)]({{site.url}}/2020-07-13-FourthPost/), I was able to train up an RL agent to chop trees in Minecraft! I was also able to interact and see my agent in action in an actual Minecraft world! Check it out below as it chops a wood block from a tree.!
 
 ![Agent](/assets/img/minecraft.jpg){: .mx-auto.d-block :}
 
@@ -26,12 +26,12 @@ algorithms, namely Proximal Policy Optimization
 (PPO), I trained a agent for 3 million timesteps to
 learn how to chop a tree. Learning progress was
 slow, as Minecraft is an incredibly complex game
-from an A.I. standpoint. However, through [imitaiton learning]({{site.url}}/2020-07-23-SeventhPost.md), where the A.I. learns from human
+from an A.I. standpoint. However, through [imitaiton learning]({{site.url}}/2020-07-23-SeventhPost/), where the A.I. learns from human
 demonstrations (MineRL provided 60 million frames of
 human gameplay), learning was expedited by a large
 factor.
 
-While training, [I learned Docker]({{site.url}}/2020-07-16-SixthPost.md), an incredibly
+While training, [I learned Docker]({{site.url}}/2020-07-16-SixthPost/), an incredibly
 powerful tool to package software. I wrote a
 dockerfile for the code which can be found in my
 github repo. My A.I agent eventually learned to chop

@@ -14,7 +14,7 @@ I'm working with [Professor Liangyan Gui](https://cs.illinois.edu/about/people/a
 
 See [this post where I talk about my project with unsupervised domain adaptation on EO and SAR images](_projects/da.md)
 
-### Computer vision project
+### RL for NLP project
 
 See [this post where I talk about my project creating a framework for reinforcement learning on natural language processing tasks!](_projects/chatbot.md)
 
