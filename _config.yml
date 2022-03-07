@@ -47,7 +47,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  google-scholar: trInLJcAAAAJ&hl=en&oi=sra
+  google-scholar: trInLJcAAAAJ
   email: "jerrick.y.liu@gmail.com"
   linkedin: jerrickliu
   github: JerrickLiu
