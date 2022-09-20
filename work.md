@@ -8,6 +8,14 @@ subtitle: A glimpse into what I've worked on at my jobs
 
 I'm working with [Professor Liangyan Gui](https://cs.illinois.edu/about/people/all-faculty/lgui) doing research in predictive vision as well as [Professor Katherine Driggs-Campbell](https://krdc.web.illinois.edu) and her PhD student [Aamir Hasan](https://aamzhas.github.io/) on reinforcement learning in advanced driver asistance systems (ADAS)!
 
+## Fall 2022
+
+I worked at Google as a Software Engineer Intern on Google Cloud's [Vertex A.I.](https://cloud.google.com/vertex-ai) team!
+
+## Summer 2022
+
+I worked at [NVIDIA](https://www.nvidia.com/en-us/) as a deep learning software engineer intern working on [cuDNN](https://developer.nvidia.com/cudnn)!
+
 ## Summer 2021
 
 ### Domain Adapation project
