@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Woah! I made a blog!
+title: I made a blog!
 published: true
 ---
 
@@ -8,7 +8,7 @@ It's July 9th and I'm in the middle of my six week internship with the Air Force
 
 **Check it out** 
 
-![an image alt text]({{ site.baseurl }}/images/IMG_4026.jpeg "My A.I. Agent ")
+![](/assets/img/minecraft.jpg)
 
 This summer, I am a returning [Wright Scholar](https://www.wpafb.af.mil/Welcome/Fact-Sheets/Display/Article/985968/wright-scholar-research-assistant-program/) and
 if you're from southwest Ohio you might know what that program is. If you're not, Wright Scholars is a relatively competitive program to do paid research in a field
