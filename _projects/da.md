@@ -5,7 +5,7 @@ thumbnail-img: /assets/img/da.png
 order: 1
 ---
 
-During the summer of 2021, I worked on a project centerd around unsupervised domain adaptation (UDA). Illustrated below, domain adaptation is the simple idea of training a classifier on one domain, called the source domain, and adapting that classifier to classify the same classes in another domain, called the target domain.
+During the summer of 2021, I worked on a project centered around unsupervised domain adaptation (UDA). Illustrated below, domain adaptation is the simple idea of training a classifier on one domain, called the source domain, and adapting that classifier to classify the same classes in another domain, called the target domain.
 
 ![ex](/assets/img/da_ex.png)
 
