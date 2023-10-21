@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Jerrick Liu
-subtitle: Deep Learning @ Nvidia
+subtitle: Tesla Autopilot Engineer
 ---
 
 ## Hello! My name is Jerrick Liu.
 
-I'm helping engineer [NVIDIA's](https://www.nvidia.com/en-us/) [cuDNN](https://developer.nvidia.com/cudnn) library and infrastructure. I recently graduated from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) studying computer science. Previously at [Google](https://cloud.google.com/vertex-ai) and the [Air Force Research Laboratory](https://www.afrl.af.mil/).
+I'm helping build Tesla's humanoid robot Optimus. I recently graduated from the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/) studying computer science. Previously at [NVIDIA's](https://www.nvidia.com/en-us/), [Google](https://cloud.google.com/vertex-ai) and the [Air Force Research Laboratory](https://www.afrl.af.mil/).
 
 I like computers, AI/ML, and making things go fast.
 
